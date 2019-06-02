@@ -37,8 +37,6 @@ class About extends React.Component {
       { title: 'Tagline', field: 'tagline'},
     ]
 
-    const let = this.state.data
-
 
       return (
           <div> 
