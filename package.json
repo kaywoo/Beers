@@ -2,6 +2,7 @@
   "name": "routing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/kaywoo/Beers",
   "dependencies": {
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.0.1",
