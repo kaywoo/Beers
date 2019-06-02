@@ -2,10 +2,11 @@
   "name": "routing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kaywoo/Beers",
+  "homepage": "https://kaywoo.github.io/Beers/",
   "dependencies": {
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.0.1",
+    "gh-pages": "^2.0.1",
     "match-sorter": "^3.0.0",
     "material-table": "^1.39.0",
     "react": "^16.8.6",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
